@@ -7,7 +7,8 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Login - Buku Tamu</title>
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="{{ asset ('css/styles.css') }}" rel="stylesheet" />
+        <link href="{{ asset('css/sweetalert2.min.css') }}" rel="stylesheet">
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body style="background-image: url('{{ asset('../images/12689.jpg') }}');background-size:cover; background-position:center; heigth:100vh; opacity:0.7">
@@ -47,5 +48,7 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+        <script src="{{ asset('js/sweetalert2.all.min.js') }}"></script>
+        
     </body>
 </html>
