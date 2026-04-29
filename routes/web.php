@@ -10,4 +10,8 @@ Route::get('/admin',function(){
     return view('index');
 });
 
+Route::get('/buku-tamu',function(){
+    return view('welcome');
+});
+
 
